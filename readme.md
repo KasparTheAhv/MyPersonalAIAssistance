@@ -1,4 +1,12 @@
+
 # 🎙️ Multi-Modal Voice Assistant with Mouse Activation
+
+
+## 💻 Clone the repository with:
+> ```bash
+> git clone https://github.com/KasparTheAhv/WhatDoingLogger.git
+> ```
+
 
 This is a multi-modal AI voice assistant that uses your **microphone, clipboard, screenshots, webcam, and mouse** to interact with you through speech. It integrates with **Groq**, **Gemini (Google Generative AI)**, and **Whisper** to transcribe speech, understand prompts, generate intelligent responses, and use visual context.
 
