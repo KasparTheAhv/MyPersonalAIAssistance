@@ -293,10 +293,6 @@ def process_recording(audio_path):
             print(colored('\n[Opening chrome]', 'yellow'))
             prompt='Respond to me with ONLY: I have opened chrome for you my king'
 
-
-
-
-
         # Generate and speak the response
         response = groq_prompt(prompt=prompt, img_context=visual_context)
 
@@ -317,36 +313,6 @@ def process_recording(audio_path):
             os.remove(audio_path)
         except:
             pass
-
-# def monitor_enter_key():
-#     """Monitor the Enter key for press and release"""
-#     global is_recording
-#     print(colored('\nBitch here, how can I help?', 'magenta'))
-#     speak("How can I help you?")
-#     print(colored('\nHold Middle mouse to record your prompt...', 'magenta'))
-#     print(colored('Release to process your prompt...', 'magenta'))
-    
-#     while True:
-#         # Wait for Enter key press
-
-#         if keyboard.is_pressed('esc'):
-#             speak("Goodbye my king and have a lovely day!")
-#             os.system('cls' if os.name == 'nt' else 'clear')
-#             sys.exit()
-#             os.system('exit')
-#             break
-        
-#         #active_window = gw.getActiveWindow()
-#         #if active_window is not None and 'PowerShell' in active_window.title:
-#         if keyboard.is_pressed('f13') and not is_recording and not speaking_in_progress:
-#             is_recording = True
-#             # Start recording (this blocks until Enter is released)
-#             audio_path = record_audio()
-#             # Process the recording
-#             if audio_path:
-#                 process_recording(audio_path)
-#         time.sleep(0.1)
-
 
 # Global flag to track middle mouse button press
 middle_mouse_pressed = False

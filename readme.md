@@ -4,7 +4,7 @@
 
 ## 💻 Clone the repository with:
 > ```bash
-> git clone https://github.com/KasparTheAhv/WhatDoingLogger.git
+> git clone https://github.com/KasparTheAhv/MyPersonalAIAssistance
 > ```
 
 
@@ -115,6 +115,6 @@ engine.setProperty("voice", voices[1].id)
 - [SpeechRecognition](https://pypi.org/project/SpeechRecognition/)
 - [Pyttsx3](https://pyttsx3.readthedocs.io/)
 
----
+## 📄 License
 
-> Built for tinkering and personal AI productivity. Stay curious 🧠
+[MIT](https://choosealicense.com/licenses/mit/) — free for personal and educational use. 
